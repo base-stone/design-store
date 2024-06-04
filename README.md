@@ -1,4 +1,4 @@
-pnpm install -D @base-stone/store
+pnpm add @base-stone/store
 https://unpkg.com/@base-stone/store
 
 
