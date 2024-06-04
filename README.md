@@ -1,21 +1,17 @@
-pnpm install -D @base-stone/librarys
-https://unpkg.com/@base-stone/librarys
+pnpm install -D @base-stone/store
+https://unpkg.com/@base-stone/store
 
 
 ## 常规项目代码目录
 
 ```
-├── fun.ts
 ├── main.ts
-├── request.ts
-├── store.ts
-└── utils.ts
     
 ```
 
 ## Store 使用
 ```
-  import { localStore, sessionStore } from '@base-stone/librarys' 
+  import { localStore, sessionStore } from '@base-stone/store' 
   localStore.set("name", {age: 1}) //localStorage
   localStore.get("name")
   sessionStore.set("name", {age: 1}) //sessionStorage
