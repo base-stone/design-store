@@ -50,7 +50,6 @@ function clearAll(type: string): void {
   storage.clear()
 }
 
-
 function localSet(key: string, val: any): void {
   setItem(key, val, 'local')
 }
